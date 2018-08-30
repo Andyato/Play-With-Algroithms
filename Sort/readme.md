@@ -1,5 +1,5 @@
 # 排序算法总结与实现
-![](/home/andy/Github/someAlgroithms/Sort/image/2097783353.jpg)
+![](https://github.com/Andyato/someAlgroithms/blob/master/Sort/image/2097783353.jpg)
 ## 插入排序
 - 直接插入排序、二分插入排序
     
