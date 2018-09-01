@@ -1,6 +1,5 @@
 #include<iostream>
 #include "Sort.h"
-using namespace std;
 
 template <typename T> void print(const vector<T>& data);
 int main()
@@ -9,8 +8,10 @@ int main()
     cout << "before sort: " << endl;
     print(data);
     Sort<int> sort;
-    //sort.binaryInsertSort(data);
-    sort.insertSort(data);
+    // sort.binaryInsertSort(data);
+    // sort.insertSort(data);
+    sort.selectSort(data);
+    // sort.bubbleSort(data);
     cout << "sorted: " << endl;
     print(data);
 }
