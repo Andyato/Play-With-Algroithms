@@ -9,9 +9,10 @@ int main()
     print(data);
     Sort<int> sort;
     // sort.binaryInsertSort(data);
-    // sort.insertSort(data);
-    sort.selectSort(data);
+    sort.insertSort(data);
+    // sort.selectSort(data);
     // sort.bubbleSort(data);
+    // sort.shellSort(data);
     cout << "sorted: " << endl;
     print(data);
 }
