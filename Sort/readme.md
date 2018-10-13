@@ -1,8 +1,6 @@
 # 十大排序算法总结
-## 分类
-![](https://upload-images.jianshu.io/upload_images/13760813-8f1da8b3c81fa326.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/528/format/webp)
 ## 稳定性，时间复杂度和空间复杂度总结
-![](https://upload-images.jianshu.io/upload_images/13760813-10f5406a78b023f3.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/966/format/webp)
+![](./image/排序总结.jpg)
 ## 动图演示
 1. **插入排序**
    
