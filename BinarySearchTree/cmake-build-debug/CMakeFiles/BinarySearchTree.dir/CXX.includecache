@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Github/Play-With-Algroithms/BinarySearchTree/BinarySearch.h
+
+D:/Github/Play-With-Algroithms/BinarySearchTree/main.cpp
+iostream
+-
+BinarySearch.h
+D:/Github/Play-With-Algroithms/BinarySearchTree/BinarySearch.h
+
