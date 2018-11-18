@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Github/Play-With-Algroithms/knapsack/dynamicKnapsack01.h
+vector
+-
+
+D:/Github/Play-With-Algroithms/knapsack/knapsack01.h
+vector
+-
+
+D:/Github/Play-With-Algroithms/knapsack/lessSpaceKnapsack01.h
+vector
+-
+
+D:/Github/Play-With-Algroithms/knapsack/main.cpp
+iostream
+-
+knapsack01.h
+D:/Github/Play-With-Algroithms/knapsack/knapsack01.h
+memoKnapsack01.h
+D:/Github/Play-With-Algroithms/knapsack/memoKnapsack01.h
+dynamicKnapsack01.h
+D:/Github/Play-With-Algroithms/knapsack/dynamicKnapsack01.h
+lessSpaceKnapsack01.h
+D:/Github/Play-With-Algroithms/knapsack/lessSpaceKnapsack01.h
+
+D:/Github/Play-With-Algroithms/knapsack/memoKnapsack01.h
+vector
+-
+

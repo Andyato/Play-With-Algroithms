@@ -1,0 +1,3 @@
+D:/Github/Play-With-Algroithms/knapsack/cmake-build-debug/CMakeFiles/knapsack.dir
+D:/Github/Play-With-Algroithms/knapsack/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Github/Play-With-Algroithms/knapsack/cmake-build-debug/CMakeFiles/rebuild_cache.dir
