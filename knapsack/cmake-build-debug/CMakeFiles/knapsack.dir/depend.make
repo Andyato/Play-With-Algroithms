@@ -3,6 +3,7 @@
 
 CMakeFiles/knapsack.dir/main.cpp.obj: ../dynamicKnapsack01.h
 CMakeFiles/knapsack.dir/main.cpp.obj: ../knapsack01.h
+CMakeFiles/knapsack.dir/main.cpp.obj: ../leastSpaceKnapsack01.h
 CMakeFiles/knapsack.dir/main.cpp.obj: ../lessSpaceKnapsack01.h
 CMakeFiles/knapsack.dir/main.cpp.obj: ../main.cpp
 CMakeFiles/knapsack.dir/main.cpp.obj: ../memoKnapsack01.h

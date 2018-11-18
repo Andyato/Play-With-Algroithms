@@ -14,6 +14,10 @@ D:/Github/Play-With-Algroithms/knapsack/knapsack01.h
 vector
 -
 
+D:/Github/Play-With-Algroithms/knapsack/leastSpaceKnapsack01.h
+vector
+-
+
 D:/Github/Play-With-Algroithms/knapsack/lessSpaceKnapsack01.h
 vector
 -
@@ -29,6 +33,8 @@ dynamicKnapsack01.h
 D:/Github/Play-With-Algroithms/knapsack/dynamicKnapsack01.h
 lessSpaceKnapsack01.h
 D:/Github/Play-With-Algroithms/knapsack/lessSpaceKnapsack01.h
+leastSpaceKnapsack01.h
+D:/Github/Play-With-Algroithms/knapsack/leastSpaceKnapsack01.h
 
 D:/Github/Play-With-Algroithms/knapsack/memoKnapsack01.h
 vector

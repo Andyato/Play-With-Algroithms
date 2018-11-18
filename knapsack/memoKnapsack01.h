@@ -26,7 +26,7 @@ int bestValue(const vector<int>& w, const vector<int>& v, int i, int c, vector<v
 
 int memoKnapsack01(const vector<int>& w, const vector<int>& v, int c)
 {
-    auto n = w.size();
+    int n = w.size();
 
     vector<vector<int>> memo( n, vector<int>(c+1, -1) );
 

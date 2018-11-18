@@ -11,7 +11,7 @@ using namespace std;
 int dynamicKnapsack01(const vector<int>& w, const vector<int>& v, int c)
 {
     size_t n = w.size();
-    if(n == 0)
+    if(n == 0 || c == 0)
         return 0;
 
     vector<vector<int>> memo( n, vector<int>(c+1 ,-1) );
