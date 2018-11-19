@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Github/Play-With-Algroithms/LongestCommonSequence/LCS.h
+string
+-
+
+D:/Github/Play-With-Algroithms/LongestCommonSequence/dynamicLCS.h
+vector
+-
+string
+-
+
+D:/Github/Play-With-Algroithms/LongestCommonSequence/main.cpp
+iostream
+-
+string
+-
+LCS.h
+D:/Github/Play-With-Algroithms/LongestCommonSequence/LCS.h
+memoLCS.h
+D:/Github/Play-With-Algroithms/LongestCommonSequence/memoLCS.h
+dynamicLCS.h
+D:/Github/Play-With-Algroithms/LongestCommonSequence/dynamicLCS.h
+
+D:/Github/Play-With-Algroithms/LongestCommonSequence/memoLCS.h
+string
+-
+vector
+-
+
