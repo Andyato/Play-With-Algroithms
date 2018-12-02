@@ -26,20 +26,30 @@ void inRecursiveTraversal(TreeNode* root)
     std::cout << std::endl;
 }
 
+// Non-Recursive
 void inTraversal(TreeNode* root)
 {
     if(!root)
         return;
 
     stack<TreeNode*> stk;
-    stk.push(root);
+    TreeNode* currNode = root;
 
-    while (!stk.empty())
+    while (currNode || !stk.empty())
     {
-        TreeNode* currNode = stk.top();
-
-        if()
+        if(currNode)
+        {
+            stk.push(currNode);
+            currNode = currNode->left;
+        }
+        else
+        {
+            currNode = stk.top(); stk.pop();
+            cout << currNode->val << " " ;
+            currNode = currNode->right;
+        }
     }
+    cout << endl;
 }
 
 #endif //TREETRAVERSAL_INORDERTRAVERSAL_H

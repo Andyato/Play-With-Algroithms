@@ -6,7 +6,9 @@
 #define TREETRAVERSAL_POSTORDERTRAVERSAL_H
 
 #include <iostream>
+#include <stack>
 #include "TestHelper.h"
+using namespace std;
 
 void __postRecursiveTraversal(TreeNode* root)
 {
@@ -25,6 +27,43 @@ void postRecursiveTraversal(TreeNode* root)
 }
 
 
+//Non-Recursive
+void postTraversal(TreeNode* root)
+{
+    vector<int> res;
+    if(!root)
+        return ;
 
+    stack<TreeNode*> stack;
+    TreeNode* pre = nullptr;
+    TreeNode* cur = root;
+
+    while(cur != nullptr || !stack.empty())
+    {
+        if(cur != nullptr)
+        {
+            stack.push(cur);
+            cur = cur->left;
+        }
+        else
+        {
+            cur = stack.top();
+            stack.pop();
+
+            if(cur->right == nullptr || pre == cur->right)
+            {
+                cout << cur->val << " ";
+                pre = cur;
+                cur = nullptr;
+            }
+            else
+            {
+                stack.push(cur);
+                cur = cur->right;
+            }
+        }
+    }
+    cout << endl;
+}
 
 #endif //TREETRAVERSAL_POSTORDERTRAVERSAL_H

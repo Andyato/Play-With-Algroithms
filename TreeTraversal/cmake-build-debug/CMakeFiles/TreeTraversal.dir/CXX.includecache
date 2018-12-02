@@ -21,6 +21,8 @@ algorithm
 D:/Github/Play-With-Algroithms/TreeTraversal/inOrderTraversal.h
 iostream
 -
+stack
+-
 TestHelper.h
 D:/Github/Play-With-Algroithms/TreeTraversal/TestHelper.h
 
@@ -48,6 +50,8 @@ D:/Github/Play-With-Algroithms/TreeTraversal/levelOrderTraversal.h
 
 D:/Github/Play-With-Algroithms/TreeTraversal/postOrderTraversal.h
 iostream
+-
+stack
 -
 TestHelper.h
 D:/Github/Play-With-Algroithms/TreeTraversal/TestHelper.h

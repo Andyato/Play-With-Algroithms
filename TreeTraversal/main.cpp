@@ -16,7 +16,11 @@ int main()
     postRecursiveTraversal(root1);
     levelTraversal(root1);
 
+    std::cout << "Non-Recursive: " << endl;
+
     preTraversal(root1);
+    inTraversal(root1);
+    postTraversal(root1);
     
     return 0;
 }
